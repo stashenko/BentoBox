@@ -6,11 +6,11 @@ meta:
   - stashenko
   banner: BLUE_BANNER:1:STRIPE_LEFT:RED:STRIPE_RIGHT:WHITE
 general:
-  success: '&aУспех!'
+  success: '&aОтлично!'
   invalid: Неверный
   errors:
     command-cancelled: '&cКоманда отменена.'
-    no-permission: '&cУ вас нет прав что-бы использовать эту команду (&7[permission]&c).'
+    no-permission: '&cУ вас нет прав что-бы использовать эту команду. Разрешение (&7[permission]&c).'
     use-in-game: '&cЭта команда доступна только во время игры.'
     no-team: '&cУ вас нет команды!'
     no-island: '&cУ вас нет острова!'
