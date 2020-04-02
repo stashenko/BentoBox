@@ -1,0 +1,14 @@
+stonegenerator:
+  commands:
+    level:
+      description: Этот метод показывает ваш уровень магического генератора булыжника вашего острова.
+    main:
+      description: Основной метод для магического генератора булыжника. Показывает помощь.
+    alllevels:
+      description: Этот метод возвращает все уровни магического генератора булыжника для текущего мира.
+  messages:
+    generator-tier: '&2[name] &r&2(Уровень [value] острова).'
+    material-chance: '&2    [name] - [value]%'
+    island-level: '&2Ваш уровень острова &6[level]&2!'
+  errors:
+    cannot-find-any-generators: '&cНевозможно найти уровень магического генератора булыжника для текущего мира.'
