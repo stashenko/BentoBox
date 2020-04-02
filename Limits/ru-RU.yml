@@ -1,0 +1,27 @@
+# 
+# This is a YML file. Be careful when editing. Check your edits in a YAML checker like    #
+# the one at http://yaml-online-parser.appspot.com                                        #
+block-limits:
+  hit-limit: '&c[material] ограничен до [number]!'
+entity-limits:
+  hit-limit: '&c[entity] спавн ограничен до [number]!'
+limits:
+  panel-title: Ограничения острова
+admin:
+  limits:
+    main:
+      parameters: <player>
+      description: показать ограничения острова для игрока
+    calc:
+      parameters: <player>
+      description: пересчитать ограничения острова для игрока
+      finished: '&aОстровной пересчет завершился успешно!'
+island:
+  limits:
+    description: показать свои ограничения острова
+    max-color: '&c'
+    regular-color: '&a'
+    block-limit-syntax: '[number]/[limit]'
+    no-limits: '&cВ этом мире нет ограничений'
+    recount:
+      description: пересчитывает ограничения для вашего острова
