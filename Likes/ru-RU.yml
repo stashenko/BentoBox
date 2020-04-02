@@ -1,31 +1,31 @@
 likes:
   gui:
     titles:
-      select-block: '&dSelect a Block'
-      top: '&dTop Islands by [type]'
-      view: '&dView Island Likes'
-      manage: '&dAdd Like or Dislike'
-      settings: '&dEdit Settings'
-      admin: '&dAdmin Panel'
-      select-island: '&dSelect an Island'
-      select-player: '&dSelect a Player'
-      edit-view: '&dEdit Island Likes'
+      select-block: '&dВыбрать блок'
+      top: '&dТоп островов по типу [type]'
+      view: '&dПосмотреть лайки'
+      manage: '&dПоставить Лайк или Дизлайк'
+      settings: '&dРедактировать настройки'
+      admin: '&dПанель Администратора'
+      select-island: '&dВыберите остров'
+      select-player: '&dВыберите игрока'
+      edit-view: '&dИзменить Лайки острова'
     buttons:
-      cancel: '&cCancel'
-      accept: '&aAccept'
-      previous: Previous
-      next: Next
+      cancel: '&cОтменить'
+      accept: '&aПринять'
+      previous: Предыдущий
+      next: Следующий
       return: '&aReturn'
-      view-mode: '&6Top Type'
+      view-mode: '&6Тип Топов'
       name: '[name]'
-      like: '&6Likes count'
+      like: '&6Количество лайков'
       like-rank: '&6Rank by Likes'
-      dislike: '&cDislikes count'
+      dislike: '&cКоличество дизлайков'
       dislike-rank: '&cRank by Dislikes'
       overall: '&aRank number'
-      overall-rank: '&aSort by Rank'
-      add-like: '&6Add/Remove Like'
-      add-dislike: '&cAdd/Remove Dislike'
+      overall-rank: '&aСортировать по рангу'
+      add-like: '&6Добавить/Убрать лайки'
+      add-dislike: '&cДобавить/Убрать дизлайки'
       like-cost: Like Cost
       like-remove-cost: Like Remove Cost
       dislike-cost: Dislike Cost
@@ -34,28 +34,28 @@ likes:
       inform-players: Inform Island Members
       log-history: Log History
       reset-likes: Reset likes on Reset
-      manage-likes: Manage Island Likes/Dislikes
-      likes-icon: Change Island Icon
-      wipe-data: Wipe Data
-      edit-settings: Edit Settings
-      add-dislike-user: Add Dislike
-      add-like-user: Add Like
-      remove-dislike-user: Remove Dislike
-      remove-like-user: Remove Like
+      manage-likes: Управление лайками/дизлайками острова
+      likes-icon: Изменить иконку острова
+      wipe-data: Сбросить инфорамацию
+      edit-settings: Редактировать настройки
+      add-dislike-user: Добавить дизлайк
+      add-like-user: Добавить лайк
+      remove-dislike-user: Убрать дизлайк
+      remove-like-user: Убрать лайк
     descriptions:
-      selected: '&dSelected'
-      view-mode: '&fAllows to choose|&fwhich top should|&fbe displayed.'
-      mode: Shows top ten|islands by [type].
+      selected: '&dВыбрано'
+      view-mode: '&fРазрешенные к выбору|&fтоп которых|&fдолжен быть отображен.'
+      mode: Показать топ десяти|островов по типу [type].
       top-value:
         likes: '&6[rank]. island by likes|&6with [value] likes.'
         dislikes: '&6[rank]. island by dislikes|&6with [value] dislikes.'
         rank: '&6[rank]. island by rank|&6with [value] rank points.'
-      values: Island has:|[likes] likes|[dislikes] dislikes|[rank] rank points.
-      unknown: '&cunknown player'
-      current-value: 'Current value: [value].'
-      like: Likes added by |other players.
-      dislike: Dislikes added by |other players.
-      overall: Calculated Rank value|(likes - dislikes).
+      values: Остров имеет:|[likes] лайков|[dislikes] дизлайков|[rank] очков ранга.
+      unknown: '&cнеизвестный игрок'
+      current-value: 'Текущее значение: [value].'
+      like: Лайки добавлены |другими игроками.
+      dislike: Дизлайки добавлены |другими игроками.
+      overall: Calculated Rank value|(лайки - дизлайки).
       like-rank: Placement in top by|Likes count.
       dislike-rank: Placement in top by|Dislikes count.
       overall-rank: Placement in top by|Rank.
