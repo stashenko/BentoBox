@@ -1,0 +1,20 @@
+controlpanel:
+  messages:
+    import-count: Imported [number] control panels
+  errors:
+    no-load: '&4Не удается загрузить файл controlPanels.yml: [message]'
+    no-file: '&4Отсутствует файл controlPanels.yml'
+    no-valid-panels: '&4Не удалось найти действительную панель управления.'
+    no-valid-panels-op: '&4Не удалось найти действительную панель управления. Вы
+      должны попытаться импортировать её, используя /[admin] cp import'
+  commands:
+    admin:
+      help:
+        parameters: ''
+        description: показывает команды помощи администратора
+      import:
+        parameters: '[overwrite]'
+        description: импортирует панели управления из controlPanels.yml
+    help:
+      parameters: ''
+      description: открывает панель управления
