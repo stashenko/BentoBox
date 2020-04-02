@@ -1,0 +1,35 @@
+# 
+# This is a YML file. Be careful when editing. Check your edits in a YAML checker like    #
+# the one at http://yaml-online-parser.appspot.com                                        #
+admin:
+  level:
+    parameters: <player>
+    description: рассчитать уровень острова для игрока
+  top:
+    description: показать список первой десятки лучших
+    unknown-world: '&cНеизвестный мир!'
+    display: '&f[rank]. &a[name] &7- &b[level]'
+    remove:
+      description: удалить игрока из первой десятки лучших
+      parameters: <player>
+island:
+  level:
+    parameters: '[player]'
+    description: рассчитать свой уровень острова или показать уровень [player]
+    calculating: '&aРасчет уровня...'
+    island-level-is: '&aУровень острова &b[level]'
+    required-points-to-next-level: '&a[points] очков требуются до следующего уровня'
+    deaths: '&c([number] смертей)'
+    cooldown: '&cВы должны ждать &b[time] &cсекунд!'
+  top:
+    description: показать десятку лучших
+    gui-title: '&aДесятка лучших'
+    gui-heading: '&6[name]: &B[rank]'
+    island-level: '&BУровень [level]'
+    warp-to: '&AТелепортация на остров [name]'
+  value:
+    description: показывает стоимость любого блока
+    success: '&7Значение этого блока: &e[value]'
+    success-underwater: '&7Значение этого блока ниже уровня моря: &e[value]'
+    empty-hand: '&cНет блока в вашей руке'
+    no-value: '&cЭтот предмет не имеет значения.'
