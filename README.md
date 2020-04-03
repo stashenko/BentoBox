@@ -2,8 +2,8 @@
 # Перевод плагина и аддонов на русский язык
 # Папка плагина locales
 # На данный момент переведены аддоны:
-# AcidIsland - 0%
-# BSkyBlock - 0%
+# AcidIsland - 100%
+# BSkyBlock - 100%
 # BentoBox - 80%
 # Biomes - 100%
 # CauldronWitchery - 100%
