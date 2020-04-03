@@ -2,286 +2,284 @@ biomes:
   gui:
     title:
       admin:
-        main-gui: '&6Admin Menu'
-        edit: '&6Edit [biome]'
-        settings: '&6Addon Settings'
-        edit-list: '&6Editable Biome List'
-        remove-list: '&6Removable Biome List'
-        user-list: '&6Choose Player'
-        confirm-title: '&6Confirm Previous Action'
-        manage-numbers: '&6Manage Numbers'
-        select-biome: '&6Select Biome'
-        toggle-environment: '&6Toggle Environment'
-        edit-text-fields: '&6Edit Text Fields'
-        select-block: '&6Select A Material'
-        lore-edit: '&6Lore Message'
-        lore-add: '&6Add Lore Element'
-        lore-remove: '&6Remove Lore Element'
-      biomes-choose: '&6Choose Biome'
-      mode-choose: '&6Choose Update Mode'
+        main-gui: '&6Меню админа'
+        edit: '&6Редактировать [biome]'
+        settings: '&6Настройки аддона'
+        edit-list: '&6Редактируемый список биомов'
+        remove-list: '&6Список съемных биомов'
+        user-list: '&6Выберите игрока'
+        confirm-title: '&6Подтвердите предыдущее действие'
+        manage-numbers: '&6Управление номерами'
+        select-biome: '&6Выберите Биом'
+        toggle-environment: '&6Переключить среду'
+        edit-text-fields: '&6Редактировать текстовые поля'
+        select-block: '&6Выберите материал'
+        lore-edit: '&6Описание сообщения'
+        lore-add: '&6Добавить элемент описания'
+        lore-remove: '&6Удалить элемент описания'
+      biomes-choose: '&6Выберите Биом'
+      mode-choose: '&6Выберите режим обновления'
     buttons:
       admin:
-        settings: Settings
-        import: Import
-        remove: Remove Biome
-        edit: Edit Biome
-        add: Add Biome
-        change: Change User Biome
-        change-biome: Biome
-        name: Display Name
-        icon: Icon
-        order: Order
-        description: Description
-        deployment: Deployment
-        required-permissions: Required Permissions
-        required-level: Required Level
-        required-money: Required Money
-        advanced-menu: Advanced Menu
-        default-mode: Default Update Mode
-        default-size: Default Size
-        visibility-mode: Biomes Visibility
-        line-length: Lore Line Length
-        biomes-lore: Biome Lore
-        cooldown: Cooldown
-        reset-biomes: Reset Event
-        use-protection-range: Use Protection Range
-        toggle-user-list: Toggle Player List
-        save: Save
-        cancel: Cancel
-        input: Input
-        accept: Accept
+        settings: Настройки
+        import: Импорт
+        remove: Удалить биом
+        edit: Редактировать биом
+        add: Добавить виом
+        change: Изменить биом игрока
+        change-biome: Биом
+        name: Название
+        icon: Иконка
+        order: Порядок
+        description: Описание
+        deployment: Развертывание
+        required-permissions: Требуемые разрешения
+        required-level: Требуемый уровень
+        required-money: Требуемые деньги
+        advanced-menu: Расширенное меню
+        default-mode: Режим обновления по умолчанию
+        default-size: Размер по умолчанию
+        visibility-mode: Видимость биомов
+        line-length: Длина линии описания
+        biomes-lore: Описание Биома
+        cooldown: Ожидание
+        reset-biomes: Сброс события
+        use-protection-range: Используемый диапазон защиты
+        toggle-user-list: Переключить Список игрока
+        save: Сохранить
+        cancel: Отмена
+        input: Ввод
+        accept: Принять
         set-mode: =
         increase-mode: +
         reduce-mode: '-'
         multiply-mode: '*'
         number: '[number]'
-        add-string: Add String
-        clear: Clear
-        remove-empty: Remove Empty
-        input-mode: Input Mode
-        value: Value
-        add-element: Add Element
-        remove-element: Remove Element
-      value: 'Current Value: [number]'
-      increase: Increase by [number]
-      decrease: Decrease by [number]
-      set: Set value to [number]
-      accept: Accept
-      decline: Decline
-      information: Information
-      return: Return
-      previous: Previous
-      next: Next
+        add-string: Добавить строку
+        clear: Очистить
+        remove-empty: Удалить пустую
+        input-mode: Режим ввода
+        value: Значение
+        add-element: Добавить элемент
+        remove-element: Удалить элемент
+      value: 'Текущее значение: [number]'
+      increase: Увеличить на [number]
+      decrease: Уменьшение на [number]
+      set: Установить значение на [number]
+      accept: Принять
+      decline: Отменить
+      information: Информация
+      return: Вернуться
+      previous: Назад
+      next: Вперед
     descriptions:
       admin:
-        settings: Allows to edit Addon Settings
-        import: Allows to import biomes from biomes.yml file.|Right click will enable/disable
-          overwrite mode.
-        remove: Allows to remove biome from memory
-        edit: Allows to edit biome properties
-        add: Allows to add new biome in current world
-        change: Allows to change players biome on their island
-        change-biome: Allows to change which Minecraft Biome will be used.
-        required-permissions: Allows to change required permissions for this biome.|Without
-          these permissions players will not be able to apply it!
-        required-level: Allows to change minimal island level.|&cRequires Level Addon.
-        required-money: Allows to change how much changing to this biome cost.|&cRequires
-          Economy Addon/Plugin.
-        name: Allows to change display name for this Biome.
-        deployment: Allows to disable/enable players ability to use this biome.
-        icon: Allows to set different display icon for this biome.
-        description: Allows to modify description of this biome.
-        order: Allows to modify order of this biome.
-        advanced-menu: Allows to enable/disable Advanced Menu with all change options
-          for players.
-        default-mode: Allows to change default biome update mode.|Will be used if
-          Advanced Menu is disabled and as default values in this menu.
-        default-size: Allows to change default biome update size.|Will be used if
-          Advanced Menu is disabled and as default values in this menu.
-        visibility-mode: Allows to modify which biomes players can see.
-        line-length: Allows to automatically edit description lore line character
-          length.
-        biomes-lore: Allows to modify which elements in lore message will be displayed.|Check
-          config for more information.
-        cooldown: Allows to change cooldown in seconds between player can change biome
-          again.
-        reset-biomes: Allows to enable/disable biomes resetting if player with biome
-          permission leave island.
-        use-protection-range: Allows to enable/disable biome update to be limited
-          by island protection range. If this is disabled, then it will use whole
-          island range.
-        toggle-user-list: Allows to switch which players should be displayed in current
-          Menu.
-        save: Allows to save current value and return to previous Menu.
-        cancel: Allows to return to previous Menu without changes.
-        input: Allows to write number in Chat
-        set-mode: Allows to switch to set mode that will set current value to clicked
-          number.
-        increase-mode: Allows to switch to increase mode that will increase current
-          value by clicked number.
-        reduce-mode: Allows to switch to reduce mode that will reduce current value
-          by clicked number.
-        multiply-mode: Allows to switch to multiply mode that will multiply current
-          value by clicked number.
-        click-to-edit: '&4Click here to edit input.'
-        edit-text-line: '&6 Edit text message!'
-        add-text-line: '&6 Add new text message!'
-        selected: '&6Material is Selected'
+        settings: Позволяет редактировать настройки аддона
+        import: Позволяет импортировать биомы из файла biomes.yml. | Правый клик вкл/откл
+          режим перезаписи.
+        remove: Позволяет удалить биом из памяти
+        edit: Позволяет редактировать свойства биома
+        add: Позволяет добавить новый биом в текущий мир
+        change: Позволяет менять биом игроков на их острове
+        change-biome: Позволяет изменить, какой Minecraft Biome будет использоваться.
+        required-permissions: Позволяет изменить необходимые разрешения для этого биома.
+          Без этих разрешений игроки не смогут его применить!
+        required-level: Позволяет изменить минимальный уровень острова.|&cТребуется Уровень Аддона.
+        required-money: Позволяет изменить, насколько сильно меняется эта стоимость биома.|&cТребуется
+          Эконом Аддон/Плагин.
+        name: Позволяет изменить отображаемое имя для этого биома.
+        deployment: Позволяет откл/вкл возможность игроков использовать этот биом.
+        icon: Позволяет установить другую иконку для этого биома.
+        description: Позволяет изменить описание этого биома.
+        order: Позволяет изменить порядок этого биома.
+        advanced-menu: Позволяет вкл/откл расширенное меню со всеми вариантами изменения для игроков.
+        default-mode: Позволяет изменить режим обновления биома по умолчанию. | Будет использоваться,
+          если расширенное меню отключено, и в качестве значений по умолчанию в этом меню.
+        default-size: Позволяет изменить размер обновления биома по умолчанию. | Будет использоваться,
+          если расширенное меню отключено, и в качестве значений по умолчанию в этом меню.
+        visibility-mode: Позволяет изменить, какие биомы игроки могут видеть.
+        line-length: Позволяет автоматически редактировать описание длины строки символа.
+        biomes-lore: Позволяет изменить, какие элементы в сообщении описания будут
+          отображаться. | Проверьте конфигурацию для получения дополнительной информации.
+        cooldown: Позволяет изменить время восстановления в секундах между измениями
+          биома игроком.
+        reset-biomes: Позволяет вкл/откл сброс биомов, если игрок с разрешением на
+          биом покидает остров.
+        use-protection-range: Позволяет включать / отключать обновление биома, ограниченное
+          диапазоном защиты острова. Если это отключено, то он будет использовать весь
+          диапазон островов.
+        toggle-user-list: Позволяет выбрать, какие игроки должны отображаться в текущем меню.
+        save: Позволяет сохранить текущее значение и вернуться в предыдущее меню.
+        cancel: Позволяет вернуться в предыдущее меню без изменений.
+        input: Позволяет написать номер в чате
+        set-mode: Позволяет переключиться в режим установки, в котором текущее значение
+          будет установлено по нажатому номеру.
+        increase-mode: Позволяет перейти в режим увеличения, который увеличит текущее
+          значение по нажатому номеру.
+        reduce-mode: Позволяет перейти в режим уменьшения, который уменьшит текущее
+          значение по нажатому номеру.
+        multiply-mode: Позволяет переключиться в режим умножения, который будет
+          умножать текущее значение на количество нажатых.
+        click-to-edit: '&4Нажмите здесь, чтобы редактировать ввод.'
+        edit-text-line: '&6 Редактировать текстовое сообщение!'
+        add-text-line: '&6 Добавить новое текстовое сообщение!'
+        selected: '&6Материал выбран'
         lore:
-          description: Description string. | Defined in biomes object - biomeObject.description.
-          original_biome: Original Minecraft Biome String. | Represents translation
-            for 'biomes.gui.biome-description.biome-name'.
-          required_level: Required island level String. | Represents translation for
+          description: Строка описания. | Определенный в биомах объект - biomeObject.description.
+          original_biome: Оригинальная Майнкрафт Биом. | Представляет перевод для
+            'biomes.gui.biome-description.biome-name'.
+          required_level: Требуется Строка уровня острова. | Представляет перевод для
             'biomes.gui.biome-description.required-island-level'.
-          required_money: Cost for changing biome String. | Represents translation
-            for 'biomes.gui.biome-description.required-money'.
-          required_permission: Required permission String. | Represents translation
-            for 'biomes.gui.biome-description.equired-permissions'.
+          required_money: Стоимость смены строки биома. | Представляет перевод для
+            'biomes.gui.biome-description.required-money'.
+          required_permission: Требуется разрешение. | Представляет перевод для
+            'biomes.gui.biome-description.equired-permissions'.
       update-mode:
-        island: Island
-        chunk: Chunk
-        square: Range
-        undefined: Undefined
+        island: Остров
+        chunk: Чанк
+        square: Растояние
+        undefined: Неопределенный
       visibility-mode:
-        info: Allows to modify which biomes you can see.
-        all: All &r- list all biomes
-        deployed: Deployed - list deployed biomes
-        accessible: Accessible - list accessible biomes
-        toggleable: Toggleable - toggleable button in Biomes Menu
+        info: Позволяет изменить, какие биомы вы можете увидеть.
+        all: All &r- список всех биомов
+        deployed: Deployed - список развернутых биомов
+        accessible: Accessible - список доступных биомов
+        toggleable: Toggleable - кнопка переключения в меню биомов
       view-mode:
-        online: Online
-        in-world: In this world
-        with-island: With island
-      current-value: 'Current value: [value]'
-      enabled: enabled
-      disabled: disabled
+        online: Онлайн
+        in-world: В этом мире
+        with-island: С острова
+      current-value: 'Текущее значение: [value]'
+      enabled: вкл
+      disabled: выкл
       permission: ' - [permission]'
-      information: If you accept this changes, we will try to change your island biome
-        to [biome] in update mode [mode] with range [range].
+      information: Если вы примете эти изменения, мы попытаемся изменить ваш островной
+        биом на [biome] в режиме обновления [mode] с диапазоном [range].
     questions:
       prefix: '&2[SERVER]: '
       admin:
-        number: Write a number in chat and press enter to accept it and press enter.
-        name: Write a friendly name for given biome.
-        uniqueID: Write object unique name and press enter.
+        number: Напишите номер в чате и нажмите ввод, чтобы принять его, и нажмите ввод.
+        name: Напишите дружественное имя для данного биома.
+        uniqueID: Введите уникальное имя объекта и нажмите Enter.
     biomes-description:
-      biome-name: 'Minecraft Biome: [value]'
-      required-money: 'Cost: [value]'
-      required-island-level: 'Min island level: [value]'
-      required-permissions: 'Permissions:'
+      biome-name: 'Minecraft биом: [value]'
+      required-money: 'Стоимость: [value]'
+      required-island-level: 'Минимальный уровень острова: [value]'
+      required-permissions: 'Разрешение:'
   commands:
     admin:
       add:
-        description: Admin ADD command allows to add new biome. It creates empty biome
-          object with default settings.
+        description: Команда Admin ADD позволяет добавить новый биом. Создает пустой
+          объект биома с настройками по умолчанию.
         parameters: '[id]'
       edit:
-        description: Admin EDIT command allows to change given <id> property. Allows
-          to edit only existing properties.
+        description: Команда Admin EDIT позволяет изменить данное свойство <id>.
+          Позволяет редактировать только существующие свойства.
         parameters: <id> <property> <new_value>
       help:
-        description: Main biome addon admin command. Opens Admin GUI for players.
+        description: Основная команда администратора аддона биома. Открывает Admin GUI для игроков.
         parameters: ''
       import:
-        description: Admin IMPORT command allows to import biomes from biomes.yml
-          file. Adding 'overwrite' at the end will overwrite existing biomes.
+        description: Команда Admin IMPORT позволяет импортировать биомы из файла biomes.yml.
+          Добавление 'overwrite' в конце перезапишет существующие биомы.
         parameters: '[overwrite]'
       set:
-        description: Admin SET command allows to change biome for <player> island.
-          <type> and <size> is not required.
+        description: Команда Admin SET позволяет изменить биом для острова <player>.
+          <type> и <size> не требуются.
         parameters: <player> <biome> [<type>] [<size>]
       settings:
-        description: Admin SETTINGS command allows to edit addon default settings
-          via simple command. It allows to edit only existing settings.
+        description: Команда Admin SETTINGS позволяет редактировать настройки аддона по умолчанию
+          с помощью простой команды. Позволяет редактировать только существующие настройки.
         parameters: <property> <new_value>
       migrate:
-        description: This method allows to migrate biomes data that refers to current
-          game mode world to storage format.
+        description: Этот метод позволяет переносить данные биомов, относящиеся к текущему игровому
+          режиму мира, в формат хранения.
         parameters: ''
     user:
       help:
-        description: Main biome addon command that opens biome change GUI.
+        description: Основная команда дополнения биома, которая открывает графический интерфейс
+          изменения биома.
         parameters: ''
       info:
-        description: INFO command displays information about given biome.
+        description: Команда INFO отображает информацию о данном биоме.
         parameters: <biome>
       set:
-        description: SET command allows to change biome <biome> on island. <type>
-          and <size> is not required.
+        description: Команда SET позволяет изменить биом <biome> на острове. <type> и <size>
+          не требуются.
         parameters: <biome> [<type>] [<size>]
   errors:
-    unique-id: '&cUnique id &d[id]&c is not valid!'
-    too-many-arguments: '&cToo many parameters. Please check help!'
-    missing-arguments: '&cMissing command parameters. Please check help!'
-    unknown-argument: '&cUnknown command parameters. Please check help!'
-    incorrect-range: '&cGiven number &d''[number]''&c is not valid. Valid are only
-      positive integers.'
-    incorrect-mode: '&cGiven value &d''[mode]''&c is not valid. Valid values are ''ISLAND'',
-      ''CHUNK'' or ''SQUARE''.'
-    incorrect-icon: '&cGiven icon &d''[icon]''&c cannot be parsed. Try different.'
-    incorrect-biome: '&cGiven biome &d''[biome]''&c is not find in Minecraft. Use
-      correct biome name.'
-    incorrect-parameter: '&cGiven property &d''[property]''&c is not defined for biome.'
-    incorrect-boolean: '&cGiven value &d''[boolean]''&c is not a boolean. Valid values
-      are ''true'' or ''false''.'
-    incorrect-visibility: '&cGiven value &d''[mode]''&c is not valid.'
-    incorrect-object: '&cCannot find biome with given ID &d''[biome]''.'
-    no-biomes: '&cBiomes are not implemented in current world!'
-    no-biomes-admin: '&cBiomes are not implemented in current world! You should use
-      &5/[command] &cto adding them!'
-    missing-user: '&cUser is not defined.'
-    missing-biome: '&cBiome is not defined.'
-    wrong-icon: '&cGiven material &6[value]&c cannot be parsed to ItemStack.'
-    no-biomes-for-you: '&cUnfortunately, cannot find any biome that you could use.'
-    not-valid-integer: '&cGiven integer "[value]" is not valid!|Value should be between
-      [min] and [max].'
-    not-a-integer: '&cGiven value "[value]" is not integer!'
-    not-on-island: '&cYou are not on island.'
-    not-enough-money: '&cYou do not have enough money. Changing biome requires $[number]'
-    not-enough-level: '&cYour island level is too small. Biome requires [number] level'
-    admin-not-on-island: '&cYou are not on [user] island.'
-    disabled: '&cCurrently this biome is disabled.'
-    missing-permission: '&cThis biome requires &6[permission]&c permission. You do
-      not have it.'
-    no-file: '&cbiomes.yml not found.'
-    no-load: '&cAn error occur while importing biomes: [message]!'
-    load-biome: '&cCannot load biome ''[biome]'' as it is not defined in Minecraft.
-      Use correct biome name.'
-    no-rank: '&cYou do not have rank to do that.'
+    unique-id: '&cУникальный идентификатор &d[id]&c недействителен!'
+    too-many-arguments: '&cСлишком много параметров. Пожалуйста, проверьте помощь!'
+    missing-arguments: '&cОтсутствуют параметры команды. Пожалуйста, проверьте помощь!'
+    unknown-argument: '&cНеизвестные параметры команды. Пожалуйста, проверьте помощь!'
+    incorrect-range: '&cДанный номер &d''[number]''&c недействителен. Допустимы только
+      положительные целые числа.'
+    incorrect-mode: '&cЗаданное значение  &d''[mode]''&c недопустимо. Допустимые значения: ''ISLAND'',
+      ''CHUNK'' или ''SQUARE''.'
+    incorrect-icon: '&cЭта иконка &d''[icon]''&c не может быть проанализирована. Попробуйте по-другому.'
+    incorrect-biome: '&cДанный биом &d''[biome]''&c не найден в Minecraft. Используйте правильное
+      имя биома.'
+    incorrect-parameter: '&cДанное свойство &d''[property]''&c не определено для биома.'
+    incorrect-boolean: '&cЗаданное значение &d''[boolean]''&c не является логическим значением.
+      Допустимые значения: ''true'' или ''false''.'
+    incorrect-visibility: '&cЗаданное значение &d''[mode]''&c недопустимо.'
+    incorrect-object: '&cНе удается найти биом с указанным идентификатором &d''[biome]''.'
+    no-biomes: '&cБиомы не применяются в этом мире!'
+    no-biomes-admin: '&cБиомы не применяются в этом мире! Вы должны использовать
+      &5/[command] &c, чтобы добавить их!'
+    missing-user: '&cПользователь не определен.'
+    missing-biome: '&cБиом не определен.'
+    wrong-icon: '&cДанный материал &6[value]&c не может быть проанализирован в ItemStack.'
+    no-biomes-for-you: '&cК сожалению, не могу найти биом, который вы могли бы использовать.'
+    not-valid-integer: '&cДанное число "[value]" недопустимо!|Значение должно быть
+      между [min] и [max].'
+    not-a-integer: '&cЗаданное значение "[value]" не является целым числом!'
+    not-on-island: '&cВы не на острове.'
+    not-enough-money: '&cУ вас не достаточно денег. Изменение биома требует $[number]'
+    not-enough-level: '&cВаш уровень острова слишком мал. Биому требуется уровень [number] '
+    admin-not-on-island: '&cВы не на острове [user].'
+    disabled: '&cВ настоящее время этот биом отключен.'
+    missing-permission: '&cДля этого биома требуется разрешение  &6[permission]&c .
+      Вы не имеете его.'
+    no-file: '&cbiomes.yml не найден.'
+    no-load: '&cПроизошла ошибка при импорте биомов: [message]!'
+    load-biome: '&cНевозможно загрузить биом ''[biome]'' , поскольку он не определен
+      в Minecraft. Используйте правильное имя биома.'
+    no-rank: '&cУ вас не тот ранг, чтобы сделать это.'
   information:
-    header: 'Biome: [name]'
-    type: '  Type: [type]'
-    description: '  Description: [description]'
-    level: '  Level: [level]'
-    cost: '  Cost: [cost]'
-    permission: '  Permission: [permission]'
+    header: 'Биом: [name]'
+    type: '  Тип: [type]'
+    description: '  Описание: [description]'
+    level: '  Уровень: [level]'
+    cost: '  Стоимость: [cost]'
+    permission: '  Разрешение: [permission]'
   messages:
     admin:
-      migrate-start: '&2Start migrating biomes addon data.'
-      migrate-end: '&2Biomes addon data is updated to new format.'
-      migrate-not: '&2All data is valid.'
-    saved: '&dBiome [biome] is saved.'
-    biome-created: '&dNew Biome object created with uniqueID: [id]'
-    saved-config: Addon settings is updated.
-    biome-removed: Biome with unique id = '[biome]' is removed from memory.
-    update-start: '&eBiome Updating started'
-    update-done: '&6[biome]&r&e is set on island successfully.'
-    skipping: Skipping [biome] importing.
-    overwriting: Overwriting [biome].
-    imported: '[biome] is imported.'
-    import-count: Biomes importing ended. Imported [number] biomes.
+      migrate-start: '&2Начать миграцию данных биомов аддона.'
+      migrate-end: '&2Данные аддона Biomes обновлены до нового формата.'
+      migrate-not: '&2Все данные действительны.'
+    saved: '&dБиом [biome] сохранен.'
+    biome-created: '&dНовый объект Biome, созданный с uniqueID: [id]'
+    saved-config: Настройки аддона обновлены.
+    biome-removed: Биом с уникальным id = '[biome]' удален из памяти.
+    update-start: '&eОбновление Биома началось'
+    update-done: '&6[biome]&r&eбиом успешно установлен на острове .'
+    skipping: Пропуск импорта [biome] .
+    overwriting: Перезапись [biome].
+    imported: '[biome] импортируется.'
+    import-count: Завершение импорта биомов. Импортированно [number] биомов.
 protection:
   flags:
     BIOMES_ISLAND_PROTECTION:
       description: |-
-        &5&oToggle who can
-        &5&ochange Biome on island
-      name: Biomes protection
+        &5&oПереключить, кто может
+        &5&oизменить Биом на острове
+      name: Защита биомов
     BIOMES_WORLD_PROTECTION:
       description: |-
-        &5&oThis allows to enable/disable
-        &5&orequirement for players to
-        &5&obe on their island to
-        &5&ochange biome.
-      name: Biome Island limitation
-      hint: Biome change are not allowed outside island!
+        &5&oЭто позволяет вкл/откл
+        &5&oтребование, чтобы игроки
+        &5&oна своем острове
+        &5&oменяли биом.
+      name: Ограничение Биома острова
+      hint: Изменение биома за пределами острова запрещено!
