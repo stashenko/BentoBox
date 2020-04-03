@@ -47,54 +47,54 @@ greenhouses:
             блоки должны показать проблемные блоки.'
           FAIL_HOLE_IN_ROOF: '&cВ крыше дыра или она не плоская! Красные стеклянные 
             блоки должны показать проблему.'
-          FAIL_HOLE_IN_WALL: '&cThere is a hole in the wall!'
-          FAIL_NO_ROOF: '&cThere seems to be no roof!'
-          FAIL_TOO_MANY_DOORS: '&cYou cannot have more than 4 doors in the greenhouse!'
-          FAIL_TOO_MANY_HOPPERS: '&cOnly one hopper is allowed in the walls or roof.'
-          FAIL_UNEVEN_WALLS: '&cThe walls are uneven. Red glass blocks should show
-            the problem blocks.'
-          FAIL_INSUFFICIENT_ICE: '&cInsufficent ice to make this recipe'
-          FAIL_INSUFFICIENT_LAVA: '&cInsufficent lava to make this recipe'
-          FAIL_INSUFFICIENT_WATER: '&cInsufficent water to make this recipe'
-          FAIL_NO_ICE: '&cIce is required to make this recipe'
-          FAIL_NO_LAVA: '&cLava is required to make this recipe'
-          FAIL_NO_WATER: '&cWater is required to make this recipe'
-          FAIL_INSUFFICIENT_BLOCKS: '&cMore blocks are required to make this recipe!'
-          FAIL_OVERLAPPING: '&cGreenhouses cannot share walls, sorry.'
-        success: '&2You successfully made a [biome] biome greenhouse! Biome will sync
-          at next teleport or login.'
-        missing-blocks: '&cMissing [material] x [number]'
-        unknown-recipe: '&cUnknown recipe'
-        try-these: '&cTry one of these:'
+          FAIL_HOLE_IN_WALL: '&cВ стене дыра!'
+          FAIL_NO_ROOF: '&cКажется, нет крыши!'
+          FAIL_TOO_MANY_DOORS: '&cВы не можете утанавливать более 4 дверей в теплице!'
+          FAIL_TOO_MANY_HOPPERS: '&cВ стенах или на крыше допускается только одина воронка.'
+          FAIL_UNEVEN_WALLS: '&cСтены неровные. Красные стеклянные блоки должны показать
+            проблемные блоки.'
+          FAIL_INSUFFICIENT_ICE: '&cНедостаточно льда, чтобы сделать этот рецепт'
+          FAIL_INSUFFICIENT_LAVA: '&cНедостаточно лавы, чтобы сделать этот рецепт'
+          FAIL_INSUFFICIENT_WATER: '&cНедостаточно воды, чтобы сделать этот рецепт'
+          FAIL_NO_ICE: '&cНеобходим лёд, чтобы сделать этот рецепт'
+          FAIL_NO_LAVA: '&cНеобходима лава, чтобы сделать этот рецепт'
+          FAIL_NO_WATER: '&cНеобходима вода, чтобы сделать этот рецепт'
+          FAIL_INSUFFICIENT_BLOCKS: '&cБольше блоков требуется, чтобы сделать этот рецепт!'
+          FAIL_OVERLAPPING: '&cТеплицы не могут разделять стены, извините.'
+        success: '&2Вы успешно создали [biome] биомную теплицу! Биом будет синхронизироваться
+          при следующем телепорте или логине.'
+        missing-blocks: '&cОтсутствует [material] x [number]'
+        unknown-recipe: '&cНеизвестный рецепт'
+        try-these: '&cПопробуйте один из них:'
         recipe-format: '&3[name]'
       info:
-        title: '&A[How To Build A Greenhouse]'
-        instructions: "&EMake a box out of out of glass with 4 walls and a flat glass\n\
-          &Eroof and add up to &F4 doors &Ein the walls.\n&EPlace &F1 hopper &Ein\
-          \ a wall or roof and add water buckets.\n&Eto make snow and/or bonemeal\
-          \ to grow plants automatically.\n&ECheck the biome recipes for what blocks\
-          \ must be inside a\n&Egreenhouse to make one successfully. \n"
+        title: '&A[Как построить теплицу]'
+        instructions: "&EСделайте из стекла коробку с 4 стенами и плоской стеклянной крышей\n\
+          \ и добавьте до &F4 дверей &Eв стенах.\n&EПоместите &F1 воронку &Eв\
+          \ стену или крышу и добавьте ведра с водой.\n&EПоместите снег и/или\
+          \ костную муку для автоматического выращивания растений.\n&EПроверьте рецепты\
+          \ биома, какие блоки должны\n&Eбыть внутри теплицы. \n"
 help:
-  help: help
-  make: Tries to make a greenhouse
-  remove: Removes a greenhouse that you are standing in if you are the owner
-  info: How to make a greenhouse
-  list: Lists all the greenhouse biomes that can be made
-  recipe: Tells you how to make greenhouse biome
-  opengui: Opens the Greenhouse GUI
+  help: Помощ
+  make: Пытается сделать теплицу
+  remove: Удаляет теплицу, в которой вы находитесь, если вы владелец
+  info: Как сделать теплицу
+  list: Перечисляет все биомы теплиц, которые могут быть сделаны
+  recipe: Рассказывает, как сделать тепличный биом
+  opengui: Открывает графический интерфейс теплицы
 list:
-  title: '[Greenhouse Biome Recipes]'
-  info: Use /greenhouse recipe <number> to see details on how to make each greenhouse
+  title: '[Рецепты тепличных биомов]'
+  info: Пишите /greenhouse recipe <номер> чтобы узнать подробности о том, как сделать каждую теплицу
 error:
-  greenhouseProtected: Greenhouse protected
-  move: Move to a greenhouse you own first.
-  notowner: You must be the owner of this greenhouse to do that.
-  removing: Removing greenhouse!
-  notyours: This is not your greenhouse!
-  notinside: You are not in a greenhouse!
-  tooexpensive: You cannot afford [price]
-  alreadyexists: Greenhouse already exists!
-  norecipe: Cannot make a greenhouse!
+  greenhouseProtected: Теплица защищена
+  move: Для начала перейдите в теплицу, которой вы владеете.
+  notowner: Вы должны быть владельцем этой теплицы, чтобы сделать это.
+  removing: Удаление теплицы!
+  notyours: Это не ваша теплица!
+  notinside: Вы не в теплице!
+  tooexpensive: Вы не можете позволить себе [price]
+  alreadyexists: Теплица уже существует!
+  norecipe: Невозможно сделать теплицу!
 messages:
   enter: Entering [owner]'s [biome] greenhouse!
   leave: Now leaving [owner]'s greenhouse.
