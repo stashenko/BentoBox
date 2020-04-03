@@ -15,25 +15,25 @@ likes:
       accept: '&aПринять'
       previous: Предыдущий
       next: Следующий
-      return: '&aReturn'
+      return: '&aВернуться'
       view-mode: '&6Тип Топов'
       name: '[name]'
       like: '&6Количество лайков'
-      like-rank: '&6Rank by Likes'
+      like-rank: '&6Ранг по лайкам'
       dislike: '&cКоличество дизлайков'
-      dislike-rank: '&cRank by Dislikes'
-      overall: '&aRank number'
+      dislike-rank: '&cРанг по дизлайкам'
+      overall: '&aНомер ранга'
       overall-rank: '&aСортировать по рангу'
       add-like: '&6Добавить/Убрать лайки'
       add-dislike: '&cДобавить/Убрать дизлайки'
-      like-cost: Like Cost
-      like-remove-cost: Like Remove Cost
-      dislike-cost: Dislike Cost
-      dislike-remove-cost: Dislike Remove Cost
-      default-icon: Default Icon
-      inform-players: Inform Island Members
-      log-history: Log History
-      reset-likes: Reset likes on Reset
+      like-cost: Цена лайка
+      like-remove-cost: Цена убирания лайка
+      dislike-cost: Цена дизлайка
+      dislike-remove-cost: Цена убирания дизлайка
+      default-icon: Стандартная иконка
+      inform-players: Проинформировать членов острова
+      log-history: История
+      reset-likes: Сбросить лайки
       manage-likes: Управление лайками/дизлайками острова
       likes-icon: Изменить иконку острова
       wipe-data: Сбросить инфорамацию
@@ -47,15 +47,15 @@ likes:
       view-mode: '&fРазрешенные к выбору|&fтоп которых|&fдолжен быть отображен.'
       mode: Показать топ десяти|островов по типу [type].
       top-value:
-        likes: '&6[rank]. island by likes|&6с [value] лайками.'
-        dislikes: '&6[rank]. island by dislikes|&6с [value] дизлайками.'
-        rank: '&6[rank]. island by rank|&6with [value] ранговыми очками.'
+        likes: '&6[rank]. остров по лайкам|&6с [value] лайками.'
+        dislikes: '&6[rank]. остров по дизлайкам|&6с [value] дизлайками.'
+        rank: '&6[rank]. остров по рангу|&6с [value] ранговыми очками.'
       values: Остров имеет:|[likes] лайков|[dislikes] дизлайков|[rank] ранговых очков.
       unknown: '&cнеизвестный игрок'
       current-value: 'Текущее значение: [value].'
       like: Лайки добавлены |другими игроками.
       dislike: Дизлайки добавлены |другими игроками.
-      overall: Calculated Rank value|(лайки - дизлайки).
+      overall: Посчитанное значение ранга|(лайки - дизлайки).
       like-rank: Место в топе по |Количеству лайков.
       dislike-rank: Место в топе по|Количеству дизлайков.
       overall-rank: Место в топе по|Рангу.
@@ -66,43 +66,41 @@ likes:
       add-like: Разрешить добавлять или|убирать лайки для этого|острова.
       add-dislike: Разрешить добавлять или|убирать дизлайки для этого|острова.
       cost: Эта операция будет стоить $[value].
-      like-cost: Allows to change how|much cost adding new like.
-      like-remove-cost: Allows to change how|much cost removing like.
-      dislike-cost: Allows to change how|much cost adding new dislike.
-      dislike-remove-cost: Allows to change how|much cost removing dislike.
-      default-icon: Allows to change default|icon in tops.
-      inform-players: Allows to toggle if|island members should be|notified if someone|liked/disliked
-        their island
-      log-history: Allows to toggle if|history data should be|stored.
-      reset-likes: Allows to toggle if|resetting island should|reset island likes.
-      manage-likes: Allows to add/remove|players who liked or|disliked selected island.
-      likes-icon: Allows to change an island icon in top menu.
-      wipe-data: Allows to completely|remove all stored data|from current GameMode.
-      edit-settings: Allows to edit addon|settings via GUI.
+      like-cost: Разрешает изменить как много|стоит добавить лайк.
+      like-remove-cost:  Разрешает изменить как много|стоит убрать лайк.
+      dislike-cost: Разрешает изменить как много|стоит добавить дизлайк.
+      dislike-remove-cost: Разрешает изменить как много|стоит убрать дизлайк.
+      default-icon: Разрешает изменить стандартную|иконку в топе.
+      inform-players: Разрешает измениить|должны ли получать участники|уведомления если кто-то|лайкнул/дизлайкнул их остров
+      log-history: Разрешает изменять|должна ли история|сохранятся.
+      reset-likes: Разрешает изменять|должен ли сброс острова|сбрасывать лайки.
+      manage-likes: Разрешает добавлять/удалять|игроков которые лайкнули или|дизлайкнули выбранный остров.
+      likes-icon: Разрешает сменить иконку острова в меню топа.
+      wipe-data: Разрешает полностью|удалить все данные|из текущего игрового режима.
+      edit-settings: Разрешает редактировать дополнения|настройки через GUI.
   types:
     likes: Лайки
     dislikes: Дизлайки
     rank: Ранг
   messages:
-    add-like: '&aYou liked [island]''s island.'
-    player-add-like: '&a[user] liked your island.'
-    remove-like: '&cYou remove your like [island]''s island.'
-    player-remove-like: '&c[user] removed his like from your island.'
-    add-dislike: '&cYou disliked [island]''s island.'
-    player-add-dislike: '&c[user] disliked your island.'
-    remove-dislike: '&aYou remove your dislike [island]''s island.'
-    player-remove-dislike: '&a[user] removed his dislike from your island.'
-    no-data-about-island: There is no data about this island.
-    no-data-about-your-island: There is no data about your island.
+    add-like: '&aТы лайкнул [island] остров.'
+    player-add-like: '&a[user] лайкнул твой остров.'
+    remove-like: '&cТы убрал лайк с [island] острова'
+    player-remove-like: '&c[user] убрал лайк с твоего острова.'
+    add-dislike: '&cТы дизлайкнул [island] остров.'
+    player-add-dislike: '&c[user] дизлайкнул твой остров.'
+    remove-dislike: '&aТы убрал дизлайк с [island] острова.'
+    player-remove-dislike: '&a[user] убрал дизлайк с твоего острова.'
+    no-data-about-island: Нет информации по этому острову.
+    no-data-about-your-island: Нет информации по твоему острову.
   errors:
-    not-on-island: '&cYou must be on the island to run this command!'
-    your-island: '&cYou cannot add like or dislike to your own island!'
-    numeric-only: '&cInput should be only numbers!'
-    not-valid-value: '&cNumber should be larger than [min] and smaller than [max],
-      but input is [value]!'
-    top-is-empty: '&cSorry, there is no one in the top!'
-    database-error: '&cSorry, there was some error with database. Cannot find your
-      island Data.'
+    not-on-island: '&cТы должен быть на острове для использования этой команды!'
+    your-island: '&cТы не можешь ставить лайки и дизлайки своим островам!'
+    numeric-only: '&cВводить нужно только числа!'
+    not-valid-value: '&cЧисло должно быть не меньше [min] и не больше [max],
+      но было введено [value]!'
+    top-is-empty: '&cИзвините, в топе никого нет!'
+    database-error: '&cИзвините, произошла ошибка с базой данных. Не могу найти данные Вашего острова.'
   questions:
     prefix: '&c[SERVER]&r: '
     like-cost: '&5Пожалуйста, введите цену за лайк.'
@@ -113,16 +111,16 @@ likes:
     admin:
       help:
         parameters: ''
-        description: opens admin GUI
+        description: открывает GUI Администратора
       settings:
         parameters: ''
-        description: opens admin settings GUI
+        description: открывает GUI настроек
     help:
       parameters: ''
-      description: opens likes GUI
+      description: открывает GUI лайков
     top:
       parameters: <type>
-      description: opens top GUI
+      description: открывает GUI топов
     view:
       parameters: <player>
-      description: opens GUI where you can see your likes
+      description: открывает GUI, где ты можешь посмотреть свои лайки
