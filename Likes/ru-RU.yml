@@ -47,25 +47,25 @@ likes:
       view-mode: '&fРазрешенные к выбору|&fтоп которых|&fдолжен быть отображен.'
       mode: Показать топ десяти|островов по типу [type].
       top-value:
-        likes: '&6[rank]. island by likes|&6with [value] likes.'
-        dislikes: '&6[rank]. island by dislikes|&6with [value] dislikes.'
-        rank: '&6[rank]. island by rank|&6with [value] rank points.'
-      values: Остров имеет:|[likes] лайков|[dislikes] дизлайков|[rank] очков ранга.
+        likes: '&6[rank]. island by likes|&6с [value] лайками.'
+        dislikes: '&6[rank]. island by dislikes|&6с [value] дизлайками.'
+        rank: '&6[rank]. island by rank|&6with [value] ранговыми очками.'
+      values: Остров имеет:|[likes] лайков|[dislikes] дизлайков|[rank] ранговых очков.
       unknown: '&cнеизвестный игрок'
       current-value: 'Текущее значение: [value].'
       like: Лайки добавлены |другими игроками.
       dislike: Дизлайки добавлены |другими игроками.
       overall: Calculated Rank value|(лайки - дизлайки).
-      like-rank: Placement in top by|Likes count.
-      dislike-rank: Placement in top by|Dislikes count.
-      overall-rank: Placement in top by|Rank.
-      like-next: Shows next players|who liked your island.
-      dislike-next: Shows next players|who disliked your island.
-      like-previous: Shows previous players|who liked your island.
-      dislike-previous: Shows previous players|who disliked your island.
-      add-like: Allows to add or|remove like to this|island.
-      add-dislike: Allows to add or|remove dislike to this|island.
-      cost: Current operation cost $[value].
+      like-rank: Место в топе по |Количеству лайков.
+      dislike-rank: Место в топе по|Количеству дизлайков.
+      overall-rank: Место в топе по|Рангу.
+      like-next: Показать следующих игроков|лайкнувших твой остров.
+      dislike-next: Показать следующих игроков|дизлайкнувших твой остров.
+      like-previous: Показать предыдущих игроков|лайкнувших твой остров.
+      dislike-previous: Показать предыдущих игроков|дизлайкнувших твой остров.
+      add-like: Разрешить добавлять или|убирать лайки для этого|острова.
+      add-dislike: Разрешить добавлять или|убирать дизлайки для этого|острова.
+      cost: Эта операция будет стоить $[value].
       like-cost: Allows to change how|much cost adding new like.
       like-remove-cost: Allows to change how|much cost removing like.
       dislike-cost: Allows to change how|much cost adding new dislike.
@@ -80,9 +80,9 @@ likes:
       wipe-data: Allows to completely|remove all stored data|from current GameMode.
       edit-settings: Allows to edit addon|settings via GUI.
   types:
-    likes: Likes
-    dislikes: Dislikes
-    rank: Rank
+    likes: Лайки
+    dislikes: Дизлайки
+    rank: Ранг
   messages:
     add-like: '&aYou liked [island]''s island.'
     player-add-like: '&a[user] liked your island.'
@@ -105,10 +105,10 @@ likes:
       island Data.'
   questions:
     prefix: '&c[SERVER]&r: '
-    like-cost: '&5Please input cost per like.'
-    like-remove-cost: '&5Please input cost per removing like.'
-    dislike-cost: '&5Please input cost per dislike.'
-    dislike-remove-cost: '&5Please input cost per removing dislike.'
+    like-cost: '&5Пожалуйста, введите цену за лайк.'
+    like-remove-cost: '&5Пожалуйста, введите цену за убирание лайка.'
+    dislike-cost: '&5Пожалуйста, введите цену за дизлайк.'
+    dislike-remove-cost: '&5Пожалуйста, введите цену за убирание дизлайка.'
   commands:
     admin:
       help:
