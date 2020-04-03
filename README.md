@@ -18,6 +18,7 @@
 # Likes - 100% Спасибо @Dmitrii-Nabatnikov
 # Limits - 100%
 # MagicCobblestoneGenerator - 100%
-# MagicSummon - 100% (аддон больше не актуален, замена на CauldronWitchery)
+# MagicSummon - 100% 
+(аддон больше не актуален, замена на CauldronWitchery)
 # VoidPortals - 100%
 # Warps - 100%
