@@ -420,7 +420,7 @@ challenges:
           level_reward_commands: |-
             Команды в виде награды.
             Список команды которые будут выполнены в виде награды, определены в  challengeLevel.rewardCommands
-        library-author: автор &e[автор]
+          library-author: автор &e[автор]
       enabled: Включено
       disabled: Отключено
       the-end: '- Край'
@@ -545,16 +545,16 @@ challenges:
     import-challenges: Начало импорта челленджей
     no-levels: 'Предупреждение: Уровни не определены в challenge.yml'
     import-number: Импортировано [number] челленджей
-    load-skipping: ''[value]' уже существует - пропуск'
-    load-overwriting: Перезапись '[value]'
+    load-skipping: '"[value]" уже существует - пропуск'
+    load-overwriting: Перезапись "[value]"
     load-add: 'Добавление нового объекта: [value]'
     defaults-file-overwrite: defaults.json существует. Это будет перезаписано.
     defaults-file-completed: defaults.json файл заполнен челленджами из [world]!
   errors:
     no-name: '&cОтсутствует имя челленджа'
     unknown-challenge: '&cНеизвестный челлендж'
-    unique-id: '&cУникальный идентификатор '[id]' недействителен.'
-    wrong-icon: '&cДанный материал '[value]' недействителен и не может использоваться
+    unique-id: '&cУникальный идентификатор "[id]" недействителен.'
+    wrong-icon: '&cДанный материал "[value]" недействителен и не может использоваться
       в качестве иконки.'
     not-deployed: '&cЧеллендж не отображается!'
     not-on-island: '&cВы должны быть на своем острове, чтобы сделать это!'
@@ -585,7 +585,7 @@ challenges:
       привести к ошибкам!'
     no-multiple-permission: '&cУ вас нет разрешения на выполнение этого задания несколько
       раз одновременно.'
-    not-a-integer: '&cДанное значение '[value]' не является целым числом!'
+    not-a-integer: '&cДанное значение "[value]" не является целым числом!'
     challenge-level-not-available: '&cВы не разблокировали необходимый уровень для
       выполнения этого челленджа.'
     incorrect: '&cНевозможно выполнить челлендж: требования неверны.'
@@ -596,7 +596,7 @@ challenges:
     no-rank: '&cУ вас нет достаточно высокого ранга, чтобы сделать это.'
     cannot-remove-items: '&cНекоторые предметы не могут быть удалены из вашего инвентаря!'
     not-valid-integer: |-
-      &cЗаданное целое число '[value]' не является действительным!
+      &cЗаданное целое число "[value]" не является действительным!
       Значение должно быть между [min] и [max].
 protection:
   flags:
